@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="7rAm1zc9ZVsyXX1O5Slg">
+    <mxGraphModel dx="1337" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-1" value="&lt;pre style=&quot;text-align: left;&quot;&gt;Table VEHICULES&lt;br&gt;&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="270" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-2" value="&lt;pre&gt;id_vehicule (PK)&lt;/pre&gt;&lt;pre&gt;marque&lt;/pre&gt;&lt;pre&gt;modele&lt;/pre&gt;&lt;pre&gt;annee&lt;/pre&gt;&lt;pre&gt;energie&lt;/pre&gt;&lt;pre&gt;autonomie_km&lt;/pre&gt;&lt;pre&gt;immatriculation (UNIQUE)&lt;/pre&gt;&lt;pre&gt;etat&lt;/pre&gt;&lt;pre&gt;localisation&lt;/pre&gt;&lt;pre&gt;&lt;div&gt;id_station (FK → STATIONS.id_station)&lt;br&gt;&lt;/div&gt;&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6t9b1mhafE8gdv3ovcnc-1">
+          <mxGeometry y="30" width="270" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-5" value="&lt;pre style=&quot;text-align: left;&quot;&gt;Table STATIONS&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="50" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-6" value="&lt;pre&gt;id_station (PK)&lt;/pre&gt;&lt;pre&gt;nom_station&lt;/pre&gt;&lt;pre&gt;adresse&lt;/pre&gt;&lt;pre&gt;capacite&lt;br&gt;&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6t9b1mhafE8gdv3ovcnc-5">
+          <mxGeometry y="30" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-9" value="&lt;pre&gt;Table TECHNICIENS&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="240" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-10" value="&lt;pre&gt;id_technicien (PK)&lt;/pre&gt;&lt;pre&gt;nom&lt;/pre&gt;&lt;pre&gt;specialite&lt;br&gt;&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6t9b1mhafE8gdv3ovcnc-9">
+          <mxGeometry y="30" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-13" value="&lt;pre&gt;Table RESERVATIONS&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-14" value="&lt;pre&gt;id_reservation (PK)&lt;/pre&gt;&lt;pre&gt;date_debut&lt;/pre&gt;&lt;pre&gt;date_fin&lt;/pre&gt;&lt;pre&gt;id_client (FK → CLIENTS.id_client)&lt;/pre&gt;&lt;pre&gt;id_vehicule (FK → VEHICULES.id_vehicule)&lt;br&gt;&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6t9b1mhafE8gdv3ovcnc-13">
+          <mxGeometry y="30" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-17" value="&lt;pre&gt;Table PAIEMENTS&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="650" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-18" value="&lt;pre&gt;id_paiement (PK)&lt;/pre&gt;&lt;pre&gt;montant&lt;/pre&gt;&lt;pre&gt;mode_paiement&lt;/pre&gt;&lt;pre&gt;date_paiement&lt;/pre&gt;&lt;pre&gt;id_reservation (FK → RESERVATIONS.id_reservation)&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6t9b1mhafE8gdv3ovcnc-17">
+          <mxGeometry y="30" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-21" value="&lt;pre&gt;Table MAINTENANCE&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="900" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-22" value="&lt;pre&gt;id_maintenance (PK)&lt;/pre&gt;&lt;pre&gt;date_interv&lt;/pre&gt;&lt;pre&gt;type_interv&lt;/pre&gt;&lt;pre&gt;id_vehicule (FK → VEHICULES.id_vehicule)&lt;/pre&gt;&lt;pre&gt;id_technicien (FK → TECHNICIENS.id_technicien)&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6t9b1mhafE8gdv3ovcnc-21">
+          <mxGeometry y="30" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6t9b1mhafE8gdv3ovcnc-26" value="&lt;h3&gt;&lt;u&gt;Explication&lt;/u&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;&lt;strong&gt;PK (Primary Key)&lt;/strong&gt; : identifiant unique de chaque table.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;&lt;strong&gt;FK (Foreign Key)&lt;/strong&gt; : relie une table à une autre.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Exemple : &lt;code&gt;id_client&lt;/code&gt; dans &lt;strong&gt;RESERVATIONS&lt;/strong&gt; est une FK qui pointe vers &lt;strong&gt;CLIENTS&lt;/strong&gt;.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Les relations du MCD sont maintenant traduites en colonnes FK dans le MLD.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Les contraintes comme &lt;strong&gt;UNIQUE&lt;/strong&gt; (immatriculation, email) garantissent l’intégrité des données.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="370" width="300" height="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

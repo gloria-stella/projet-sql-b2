@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="8e5Uy-ym5gmAcyPn5plk">
+    <mxGraphModel dx="1185" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lAXam1p-TdsBEUO-16s6-2" value="&lt;pre&gt; VEHICULES &lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-3" value="&lt;pre&gt;id_vehicule  &lt;/pre&gt;&lt;pre&gt;marque  &lt;/pre&gt;&lt;pre&gt;modele          &lt;/pre&gt;&lt;pre&gt;annee           &lt;/pre&gt;&lt;pre&gt;energie         &lt;/pre&gt;&lt;pre&gt;autonomie_km    &lt;/pre&gt;&lt;pre&gt;immatriculation &lt;/pre&gt;&lt;pre&gt;etat            &lt;/pre&gt;&lt;pre&gt;localisation  &lt;/pre&gt;&lt;pre&gt;&lt;br&gt;&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAXam1p-TdsBEUO-16s6-2">
+          <mxGeometry y="30" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-6" value="&lt;pre&gt; STATIONS&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-7" value="&lt;pre&gt;id_station      &lt;/pre&gt;&lt;pre&gt;nom_station     &lt;/pre&gt;&lt;pre&gt;adresse         &lt;/pre&gt;&lt;pre&gt;capacite        &lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAXam1p-TdsBEUO-16s6-6">
+          <mxGeometry y="30" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-10" value="CLIENTS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-11" value="&lt;pre&gt;id_client     &lt;/pre&gt;&lt;pre&gt;nom             &lt;/pre&gt;&lt;pre&gt;prenom          &lt;/pre&gt;&lt;pre&gt;email           &lt;/pre&gt;&lt;pre&gt;telephone &lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAXam1p-TdsBEUO-16s6-10">
+          <mxGeometry y="30" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-14" value="&lt;pre&gt; TECHNICIENS  &lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-15" value="&lt;pre&gt;id_technicien   &lt;/pre&gt;&lt;pre&gt;nom            &lt;/pre&gt;&lt;pre&gt;specialite&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAXam1p-TdsBEUO-16s6-14">
+          <mxGeometry y="30" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-18" value="&lt;pre&gt;RESERVATIONS &lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-19" value="&lt;pre&gt;id_reservation  &lt;/pre&gt;&lt;pre&gt;date_debut      &lt;/pre&gt;&lt;pre&gt;date_fin  &lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAXam1p-TdsBEUO-16s6-18">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-22" value="&lt;pre&gt;PAIEMENTS &lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="140" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-24" value="&lt;pre&gt;id_paiement  &lt;/pre&gt;&lt;pre&gt;montant         &lt;/pre&gt;&lt;pre&gt;mode_paiement   &lt;/pre&gt;&lt;pre&gt;date_paiement&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAXam1p-TdsBEUO-16s6-22">
+          <mxGeometry y="30" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-26" value="&lt;pre&gt;  MAINTENANCE&lt;/pre&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="350" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-29" value="&lt;pre&gt;id_maintenance  &lt;/pre&gt;&lt;pre&gt;date_interv     &lt;/pre&gt;&lt;pre&gt;type_interv&lt;/pre&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="lAXam1p-TdsBEUO-16s6-26">
+          <mxGeometry y="30" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lAXam1p-TdsBEUO-16s6-30" value="&lt;h3&gt;&lt;u&gt;Relations (associations entre entités)&lt;/u&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;&lt;strong&gt;STATIONS – VEHICULES&lt;/strong&gt;  &lt;br&gt;Une station possède plusieurs véhicules.&lt;br&gt;→ Relation : 1 station ↔ N véhicules.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;&lt;strong&gt;CLIENTS – RESERVATIONS – VEHICULES&lt;/strong&gt;  &lt;br&gt;Un client peut faire plusieurs réservations.&lt;br&gt;Une réservation concerne un seul véhicule.&lt;br&gt;→ Relation : CLIENTS (1,N) ↔ RESERVATIONS ↔ VEHICULES (1,N).&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;&lt;strong&gt;RESERVATIONS – PAIEMENTS&lt;/strong&gt;  &lt;br&gt;Chaque réservation génère un paiement.&lt;br&gt;→ Relation : 1 réservation ↔ 1 paiement.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;&lt;strong&gt;TECHNICIENS – MAINTENANCE – VEHICULES&lt;/strong&gt;  &lt;br&gt;Un technicien peut réaliser plusieurs maintenances.&lt;br&gt;Une maintenance concerne un seul véhicule.&lt;br&gt;→ Relation : TECHNICIENS (1,N) ↔ MAINTENANCE ↔ VEHICULES (1,N)&lt;/i&gt;.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/div&gt;&lt;h3&gt;&lt;u&gt;Explication&lt;/u&gt;&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Le &lt;strong&gt;MCD&lt;/strong&gt; est conceptuel : il montre les entités et leurs relations sans parler encore de tables SQL.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Les &lt;strong&gt;cardinalités&lt;/strong&gt; (1,N) indiquent combien d’éléments peuvent être liés.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;i&gt;Exemple : un véhicule est rattaché à une seule station, mais une station peut avoir plusieurs véhicules.&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="450" height="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
