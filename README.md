@@ -79,10 +79,10 @@ Le projet peut être exécuté de deux manières :
 
 1. Ouvrir le terminal psql : appuyer sur la base ensuite tool et appuyer enfin sur psql tools eet cela nous ouvre directement le terminal nous permettant d'executer les fichiers SQL avec la commande `\i` :
 
-\i 'C:/chemin vers ton fichier/Projet-SQL-B2/SQL/create_tables.sql'
-\i 'C:/chemin vers ton fichier/Projet-SQL-B2/SQL/insert_test_data.sql'
-\i 'C:/chemin vers ton fichier/Projet-SQL-B2/SQL/queries.sql'
-\i 'C:/chemin vers ton fichier/Projet-SQL-B2/SQL/triggers_functions.sql'
+# \i 'C:/chemin vers ton fichier/Projet-SQL-B2/SQL/create_tables.sql'
+# \i 'C:/chemin vers ton fichier/Projet-SQL-B2/SQL/insert_test_data.sql'
+# \i 'C:/chemin vers ton fichier/Projet-SQL-B2/SQL/queries.sql'
+# \i 'C:/chemin vers ton fichier/Projet-SQL-B2/SQL/triggers_functions.sql'
 
 ## Résultats attendus
 
